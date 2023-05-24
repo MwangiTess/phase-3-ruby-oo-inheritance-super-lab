@@ -12,3 +12,7 @@ class ChattyStudent < Student
     end
 
 end
+
+alice = ChattyStudent.new
+puts alice.raise_hand
+puts alice.hello

@@ -7,5 +7,10 @@ class Student
     def raise_hand
         puts "Pick me!"
     end
-    
+
 end
+
+carol = Student.new
+puts carol.hello
+puts carol.raise_hand
+
